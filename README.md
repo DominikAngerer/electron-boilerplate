@@ -19,7 +19,7 @@ npm start
 Just enter the `background.js` and change the URL.
 
 ```
-    mainWindow.loadURL(`http://www.example.org/`);
+mainWindow.loadURL(`http://www.example.org/`);
 ```
 
 # Have fun
