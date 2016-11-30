@@ -14,18 +14,12 @@ npm start
 ```
 ... and boom! You have running desktop application on your screen.
 
-# Structure of the project
+##You don't want to have `example.org`?
 
-## Declaring dependencies
+Just enter the `background.js` and change the URL.
 
-There are **two** `package.json` files:
-
-#### 1. `package.json` for development
-Sits on path: `electron-boilerplate/package.json`. Here you declare dependencies for your development environment and build scripts. **This file is not distributed with real application!**
-
-Also here you declare the version of Electron runtime you want to use:
-```json
-"devDependencies": {
-  "electron": "1.3.3"
-}
 ```
+    mainWindow.loadURL(`http://www.example.org/`);
+```
+
+# Have fun
