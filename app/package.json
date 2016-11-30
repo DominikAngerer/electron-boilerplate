@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "productName": "example",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Dominik Angerer <me@dominikangerer.com>",
+  "copyright": "© 2016, example",
+  "homepage": "http://www.example.org",
+  "license": "MIT",
+  "main": "background.js",
+  "dependencies": {
+    "fs-jetpack": "^0.9.0"
+  }
+}
